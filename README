@@ -1,0 +1,4 @@
+https://codeforces.com/contest/xxxx
+
+cmake -B build -G Ninja && ninja -C build
+./build/src/0000x < data

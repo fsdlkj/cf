@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 2.8.12)
+project(cf)
+set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
+set(CMAKE_CXX_FLAGS "-fno-rtti -fno-exceptions")
+add_compile_options(-s -pipe -march=native -O2 -Wall -Wextra -pedantic)
+add_subdirectory(src)

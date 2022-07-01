@@ -1,0 +1,10 @@
+---
+BasedOnStyle: WebKit
+AllowShortFunctionsOnASingleLine: None
+AllowShortIfStatementsOnASingleLine: false
+AlwaysBreakTemplateDeclarations: Yes
+BreakBeforeBraces: Custom
+BraceWrapping:
+  AfterFunction: false
+ColumnLimit: 100
+...
